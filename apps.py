@@ -1,4 +1,4 @@
-from dash_canvas import DashCanvas
+
 import datetime
 import base64
 import io
