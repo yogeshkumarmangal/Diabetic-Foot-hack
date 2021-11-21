@@ -8,7 +8,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dropbox
 import cv2
-from matplotlib import pyplot as plt
 from urllib.request import urlopen
 import numpy as np
 import pandas as pd
@@ -16,7 +15,6 @@ import dash_table
 import plotly.express as px
 import plotly.graph_objects as go
 from fpdf import FPDF
-from dash_extensions import Download
 import dash_bootstrap_components as dbc
 col=['Grade1','Grade2','Grade3']
 dbx = dropbox.Dropbox('5uSdWA0gd2UAAAAAAAAAAauPVaO_t_nlwRgP3YzwZ8-2HlxYFWRLUrmTAgk4F4b7')
